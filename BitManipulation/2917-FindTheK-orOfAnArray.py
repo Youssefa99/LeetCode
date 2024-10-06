@@ -12,7 +12,7 @@ Space Complexity: O(1)
 
 Constraints:
 1 <= nums.length <= 50
-0 <= nums[i] < 231
+0 <= nums[i] < 2^31
 1 <= k <= nums.length
 
 solution intuition:
