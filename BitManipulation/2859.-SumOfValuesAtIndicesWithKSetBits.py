@@ -22,6 +22,7 @@ loop through every element in array checking if number of set bits = k, check fo
 
 class Solution:
     def sumIndicesWithKSetBits(nums: list[int], k: int) -> int:
+        # count number of bits using brian kernighan algorithm
         def countSetBits(num: int) -> int:
             count = 0
             while num:
