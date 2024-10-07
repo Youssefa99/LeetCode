@@ -23,7 +23,7 @@ XOR value
 """
 
 class Solution:
-    def maximumStrongPairXor(self, nums: list[int]) -> int:
+    def maximumStrongPairXor(nums: list[int]) -> int:
         maximum = 0
         for i in range(len(nums)):
             for j in range(i+1, len(nums)):
