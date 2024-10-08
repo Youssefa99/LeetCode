@@ -13,7 +13,7 @@ Space Complexity: O(1)
 
 Constraints:
 1 <= nums.length <= 1000
-1 <= nums[i] <= 105
+1 <= nums[i] <= 10^5
 0 <= k <= 10
 
 solution intuition:
