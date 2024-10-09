@@ -19,7 +19,7 @@ Constraints:
 1 <= s.length <= 1000
 s[i] is either '(' or ')'.
 
-solution intuition:
+solution intuition: Optimized space Stack
 by observing the problem we identify two cases where we need to insert characters in the string
 case one: when we find a ")" with no matching opened brackets before it
 case two: when we find a "(" whith no matching closed brackets after it
