@@ -12,8 +12,8 @@ Space Complexity: O(N)
 
 Constraints:
 
-2 <= nums.length <= 5 * 104
-0 <= nums[i] <= 5 * 104
+2 <= nums.length <= 5 * 10^4
+0 <= nums[i] <= 5 * 10^4
 
 solution intuition: Two Pointers + maxArray
 We can notice that it would be helpful to know the maximum value from each index to the end of the array. 
