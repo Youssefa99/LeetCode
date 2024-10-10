@@ -15,7 +15,7 @@ Constraints:
 
 solution intuition: Dynamic Programming
 Utilizing the recurrence relation of middle element values in pascal's triangle where a middle element value is
-nCr = n-1Cr + n-1Cr-1 while maintaining that values on the edges of each row is always one
+nCr = (n-1)C(r) + (n-1)C(r-1) while maintaining that values on the edges of each row is always one
 """
 class Solution:
     def generate(numRows: int) -> list[list[int]]:
