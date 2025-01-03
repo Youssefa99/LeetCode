@@ -11,7 +11,7 @@ Time Complexity: O(N)
 space Complexity: O(N)
 
 Constraints:
-The number of nodes in the tree is in the range [1, 105].
+The number of nodes in the tree is in the range [1, 10^5].
 1 <= Node.val <= 10^4
 
 solution intuition: Two Pass BFS
